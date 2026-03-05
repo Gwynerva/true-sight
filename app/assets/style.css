@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    @apply bg-gray-900;
+  }
+
+  :root,
+  html,
+  body,
+  #__nuxt {
+    @apply min-h-dvh;
+  }
+
+  #__nuxt {
+    @apply grid place-items-center;
+  }
+}
