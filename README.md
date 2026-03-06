@@ -6,4 +6,4 @@
 
 Web Analytics Solutions 👀
 
-This is a repository for the service sign-in page.
+This is the repository for the True Sight website.

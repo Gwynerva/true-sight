@@ -3,7 +3,7 @@
 @layer base {
   :root {
     color-scheme: dark;
-    @apply bg-gray-900;
+    @apply bg-gray-900 text-slate-300;
   }
 
   :root,
@@ -13,7 +13,7 @@
     @apply min-h-dvh;
   }
 
-  #__nuxt {
-    @apply grid place-items-center;
+  a {
+    @apply no-underline;
   }
 }
